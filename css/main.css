@@ -1,12 +1,14 @@
-.navbar {
+.main-header {
   background-image: url('../img/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  min-height: 320px;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 325px;
+  padding-top: 40px;
 }
 
 /* Colors */
-nav {
+.main-header {
   color: #fff;
 }
