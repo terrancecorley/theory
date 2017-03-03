@@ -1,0 +1,12 @@
+.navbar {
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 320px;
+}
+
+/* Colors */
+nav {
+  color: #fff;
+}
