@@ -6,9 +6,19 @@
   background-attachment: fixed;
   min-height: 325px;
   padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 /* Colors */
 .main-header {
   color: #fff;
+}
+
+/* Media Queries */
+@media (min-width: 30em) {
+
+  .info-size {
+    width: 100px;
+  }
+
 }
