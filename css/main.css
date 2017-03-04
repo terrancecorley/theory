@@ -1,3 +1,4 @@
+/* Main Header */
 .main-header {
   background-image: url('../img/banner.jpg');
   background-repeat: no-repeat;
@@ -9,16 +10,55 @@
   padding-bottom: 80px;
 }
 
+/* Info Section */
+.info-section {
+  text-align: center;
+}
+
+.info-btn {
+  border-radius: 0;
+}
+
 /* Colors */
+hr {
+  width: 100%;
+  margin-top: 45px;
+}
+
 .main-header {
   color: #fff;
+}
+
+.bb {
+  border-bottom: 1px solid gray;btn
 }
 
 /* Media Queries */
 @media (min-width: 30em) {
 
-  .info-size {
+  .info-section {
+    text-align: left;
+  }
+
+  .info-btn {
     width: 100px;
+  }
+
+}
+
+@media (min-width: 62em) {
+
+  hr {
+    display: none;
+  }
+
+  .br {
+    border-right: 1px solid lightgray;
+  }
+
+  .info-section > div {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
 }
