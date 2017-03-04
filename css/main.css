@@ -1,3 +1,8 @@
+/* General */
+.member-photo {
+  border-radius: 100%;
+}
+
 /* Main Header */
 .main-header {
   background-image: url('../img/banner.jpg');
@@ -13,10 +18,16 @@
 /* Info Section */
 .info-section {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .info-btn {
   border-radius: 0;
+}
+
+/* Team Section */
+.member-bio {
+  border: 1px solid black;
 }
 
 /* Colors */
@@ -33,11 +44,16 @@ hr {
   border-bottom: 1px solid gray;btn
 }
 
+.team-section {
+  background-color: lightblue;
+}
+
 /* Media Queries */
 @media (min-width: 30em) {
 
   .info-section {
     text-align: left;
+    margin-bottom: 90px;
   }
 
   .info-btn {
