@@ -76,7 +76,8 @@ h2,
 }
 
 .info-p,
-.photo-span {
+.photo-span,
+.photo-section p {
   color: rgba(154, 154, 154, 0.75);
 }
 
@@ -103,11 +104,19 @@ hr {
 }
 
 .member-bio {
-  border: 1px solid blue;
+  border: 1px solid #7ea3d1;
+}
+
+.main-footer {
+  color: #bfbfbf;
 }
 
 /* Media Queries */
 @media (min-width: 30em) {
+
+  html {
+    font-size: 16px;
+  }
 
   .info-section {
     text-align: left;
@@ -125,6 +134,10 @@ hr {
 }
 
 @media (min-width: 48em) {
+
+  html {
+    font-size: 19px;
+  }
 
   .main-header {
     min-height: 435px;
