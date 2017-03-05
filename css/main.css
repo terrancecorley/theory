@@ -25,12 +25,66 @@
   border-radius: 0;
 }
 
-/* Team Section */
-.member-bio {
-  border: 1px solid blue;
+/* Photo Section */
+.photo-section {
+  text-align: center;
+}
+
+/* Main Footer */
+.main-footer {
+  border-top: 1px solid lightgray;
+}
+
+.social-icon {
+  width: 17px;
+  height: 17px;
 }
 
 /* Colors */
+.banner {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.banner h1 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.info-section h3,
+h2,
+.photo-section h3 {
+  color: rgba(83, 133, 193, 1);
+}
+
+.banner h1,
+.info-section h3,
+.team-section h2,
+.team-section h3,
+.photo-headline,
+.photo-section h3 {
+  font-weight: 200;
+}
+
+#team,
+.info-btn {
+  background-color: rgba(83, 133, 193, 1);
+}
+
+.team-section h2,
+.team-section h3,
+.info-btn {
+  color: #fff;
+}
+
+.info-p,
+.photo-span {
+  color: rgba(154, 154, 154, 0.75);
+}
+
+.team-section > p,
+.member-bio > p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 hr {
   width: 100%;
   margin-top: 45px;
@@ -48,6 +102,10 @@ hr {
   background-color: lightblue;
 }
 
+.member-bio {
+  border: 1px solid blue;
+}
+
 /* Media Queries */
 @media (min-width: 30em) {
 
@@ -58,6 +116,18 @@ hr {
 
   .info-btn {
     width: 100px;
+  }
+
+  .photo-section {
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 48em) {
+
+  .main-header {
+    min-height: 435px;
   }
 
 }
