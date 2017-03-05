@@ -50,7 +50,8 @@
 
 .info-section h3,
 h2,
-.photo-section h3 {
+.photo-section h3,
+a {
   color: rgba(83, 133, 193, 1);
 }
 
